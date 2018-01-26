@@ -1,4 +1,10 @@
 spring:
+  #thymeleaf模板
   thymeleaf:
     mode: LEGACYHTML5
     encoding: UTF-8
+  http:
+    #文件上传
+    multipart:
+      max-file-size: 20Mb
+      max-request-size: 100Mb

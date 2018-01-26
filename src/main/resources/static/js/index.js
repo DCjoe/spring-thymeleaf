@@ -7,6 +7,8 @@ var indexVue = new Vue({
         menu:menu,
     },
     methods:{
-
+        test:function () {
+            alert(6666666666);
+        }
     }
 })
